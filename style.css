@@ -1,5 +1,4 @@
 html, body {
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -7,21 +6,9 @@ html, body {
   text-align: center;
   margin: auto;
   padding: 0px;
+  margin-top: 1%;
 
   font-family: 'Open Sans', sans-serif;
-}
-
-.left, .right {
-  margin: 5px;
-  max-width: 50%;
-  flex: 1;
-  display: inline-block;
-}
-
-.left {
-  align-items: center;
-  justify-content: center;
-  line-height: 5px;
 }
 
 .name {
@@ -54,5 +41,5 @@ html, body {
 }
 
 .body {
-  background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+  background-color: rgb(197, 227, 235);
 }
