@@ -8,16 +8,16 @@ html, body {
   padding: 0px;
   margin-top: 1%;
 
-  font-family: 'Open Sans', sans-serif;
-}
-
-.name {
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 2px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .profile-picture {
   border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-weight: bold;
 }
 
 .social-links {
@@ -42,4 +42,9 @@ html, body {
 
 .body {
   background-color: rgb(197, 227, 235);
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px;
 }
