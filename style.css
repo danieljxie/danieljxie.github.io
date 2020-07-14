@@ -6,7 +6,6 @@ html, body {
   text-align: center;
   margin: auto;
   padding: 0px;
-  margin-top: 1%;
 
   font-family: 'Poppins', sans-serif;
 }
@@ -38,12 +37,31 @@ h2 {
 
 .social-links a {
   text-decoration: none;
-}
-
-nav a {
-  text-decoration: none;
+  color: black;
 }
 
 .about {
   display: inline-block;
 }
+
+.navbar {
+  background-color: white;
+  overflow: hidden;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 14px;
+  text-align: center;
+  float: none;
+  display: inline-block;
+}
+
+.sticky {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
