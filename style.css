@@ -44,9 +44,14 @@ h2 {
   display: inline-block;
 }
 
+.navbar-wrapper {
+  height: 50px;
+}
+
 .navbar {
   background-color: white;
   overflow: hidden;
+  height: 50px;
 }
 
 .navbar a {
